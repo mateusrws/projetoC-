@@ -1,0 +1,70 @@
+# Ignore bin e obj directories
+/bin/
+/obj/
+
+# Arquivos de usuário e de configuração de IDEs
+# Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Arquivos do Rider
+.idea/
+
+# Arquivos de build do .NET
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.so
+*.dylib
+*.app
+*.appx
+*.appxbundle
+*.msi
+*.cab
+*.swp
+
+# Arquivos de configuração de build do .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos de configuração do NuGet
+.nuget/
+
+# Configuração do ASP.NET
+appsettings.json
+appsettings.Development.json
+
+# Diretórios de pacotes NuGet
+# Este diretório contém pacotes baixados e é regenerado durante a restauração de pacotes.
+# Para evitar que dependências sejam versionadas, este diretório deve ser ignorado.
+packages/
+
+# Arquivos de Cache do ASP.NET Core
+*/.user/
+
+# Arquivos do Visual Studio Code
+.vscode/*
+
+# Arquivos de compilação do .NET Core
+dotnet-tools.json
+
+# Arquivos de configuração de IDEs (para outras IDEs além do Visual Studio e Visual Studio Code)
+# Intellij, Rider, etc.
+.idea/
+
+# Arquivos específicos do sistema operacional
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Diretórios específicos de build
+/bin/
