@@ -68,3 +68,8 @@ ehthumbs.db
 
 # Diretórios específicos de build
 /bin/
+
+#Variáveis de Ambiente
+.env
+.env.local
+.env.*.local
